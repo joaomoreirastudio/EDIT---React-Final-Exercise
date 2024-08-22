@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 619.94 233.87">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        font-family: LeagueSpartan-Bold, 'League Spartan';
+        font-size: 67.05px;
+        font-variation-settings: 'wght' 700;
+        letter-spacing: .03em;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #a5bfba;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        letter-spacing: .19em;
+      }
+
+      .cls-6 {
+        letter-spacing: .2em;
+      }
+
+      .cls-7 {
+        letter-spacing: .2em;
+      }
+
+      .cls-8 {
+        letter-spacing: .18em;
+      }
+
+      .cls-2 {
+        stroke: #a5bfba;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-4 {
+        font-family: Quicksand-Bold, Quicksand;
+        font-size: 34.43px;
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <circle class="cls-1" cx="116.94" cy="116.94" r="114.94"/>
+    </clipPath>
+  </defs>
+  <g id="OBJECTS">
+    <g>
+      <g class="cls-9">
+        <g>
+          <g>
+            <polygon class="cls-2" points="28.7 103.72 42.13 50.03 75.11 50.03 88.53 103.72 28.7 103.72"/>
+            <line class="cls-2" x1="58.62" y1="103.72" x2="58.62" y2="226.44"/>
+            <path class="cls-2" d="M28.7,226.44h59.83c0,4.23-3.44,7.67-7.67,7.67h-44.49c-4.23,0-7.67-3.44-7.67-7.67h0Z" transform="translate(117.23 460.55) rotate(-180)"/>
+          </g>
+          <g>
+            <path class="cls-2" d="M314.01,130.53l.03,22.49c-10.57.01-19.14,8.59-19.13,19.16v7.07s-.08,0-.08,0c-.59-4.23-4.22-7.48-8.62-7.48l-141.6.17c-4.4,0-8.02,3.27-8.6,7.5h-.09s0-7.07,0-7.07c-.01-10.57-8.59-19.13-19.16-19.12l-.03-22.49c-.01-11.94,9.66-21.65,21.6-21.66l154.03-.19c11.95-.01,21.65,9.67,21.66,21.61Z"/>
+            <path class="cls-2" d="M333.2,172.15l.08,62.44-38.29.05-.08-62.44c-.01-10.57,8.56-19.15,19.13-19.16,10.57-.01,19.15,8.55,19.16,19.12Z"/>
+            <path class="cls-2" d="M135.91,172.38l.08,62.44-38.29.05-.08-62.44c-.01-10.57,8.55-19.15,19.13-19.16s19.15,8.55,19.16,19.12Z"/>
+            <path class="cls-2" d="M294.93,192.17l.05,42.46-159,.19-.05-40.8,150.3-.18c3.62,0,6.73-2.22,8.02-5.38.44,1.15.67,2.41.67,3.71Z"/>
+            <path class="cls-2" d="M294.92,180.47v4.67c0,1.18-.22,2.3-.66,3.32-1.29,3.16-4.4,5.38-8.02,5.38l-150.3.18-.02-13.36c0-.41.03-.81.09-1.21.58-4.23,4.2-7.49,8.6-7.5l141.6-.17c4.4,0,8.02,3.25,8.62,7.48.06.4.09.8.09,1.21Z"/>
+            <g>
+              <line class="cls-2" x1="264.18" y1="136.89" x2="256.88" y2="144.19"/>
+              <line class="cls-2" x1="264.18" y1="144.19" x2="256.88" y2="136.89"/>
+            </g>
+            <g>
+              <line class="cls-2" x1="166.64" y1="136.89" x2="173.94" y2="144.19"/>
+              <line class="cls-2" x1="166.64" y1="144.19" x2="173.94" y2="136.89"/>
+            </g>
+          </g>
+          <g>
+            <rect class="cls-2" x="118.09" y="8.05" width="97.29" height="86.53"/>
+            <rect class="cls-2" x="130.93" y="20.91" width="70.4" height="60.84"/>
+            <line class="cls-2" x1="130.93" y1="81.75" x2="118.09" y2="94.58"/>
+            <line class="cls-2" x1="130.93" y1="20.91" x2="118.09" y2="8.05"/>
+            <line class="cls-2" x1="201.32" y1="20.91" x2="215.37" y2="8.05"/>
+            <line class="cls-2" x1="201.32" y1="81.75" x2="215.37" y2="94.58"/>
+            <polygon class="cls-2" points="176.05 -7.18 163.45 8.05 188.65 8.05 176.05 -7.18"/>
+          </g>
+          <line class="cls-2" x1="268.05" y1="234.72" x2="-67.89" y2="234.72"/>
+        </g>
+      </g>
+      <circle class="cls-2" cx="116.94" cy="116.94" r="114.94"/>
+    </g>
+    <text class="cls-3" transform="translate(271.8 126.08)"><tspan x="0" y="0">FURNITURE</tspan></text>
+    <text class="cls-4" transform="translate(271.8 165.29)"><tspan class="cls-7" x="0" y="0">minimalist </tspan><tspan class="cls-5" x="255.16" y="0">l</tspan><tspan class="cls-6" x="270.99" y="0">o</tspan><tspan class="cls-8" x="299.02" y="0">g</tspan><tspan class="cls-7" x="327" y="0">o</tspan></text>
+  </g>
+</svg>
