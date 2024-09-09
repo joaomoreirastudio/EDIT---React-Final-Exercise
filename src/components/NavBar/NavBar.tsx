@@ -10,7 +10,7 @@ import {
 } from "./NavBar.styled.js";
 import { Twirl as Hamburger } from "hamburger-react";
 import { useState } from "react";
-import Logo from "/src/assets/logo-react-site.svg";
+import Logo from "../../assets/logo.svg";
 import { FaChevronDown } from "react-icons/fa6";
 
 const NavBar = () => {

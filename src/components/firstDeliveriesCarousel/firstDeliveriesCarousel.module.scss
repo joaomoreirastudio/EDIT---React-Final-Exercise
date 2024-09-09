@@ -1,0 +1,36 @@
+@import "../../styles/base.scss";
+
+.section__title {
+    font-size: 1.5rem;
+    font-weight: normal;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.first__deliveries__carousel {
+    padding: 3rem 0 3rem 0;
+    .first__deliveries_carousel__container {
+        @include flex(center, center);
+
+        gap: 0.5rem;
+        .carousel__image {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .first__deliveries__carousel {
+        @include flex(center, center);
+        flex-direction: column;
+
+        .first__deliveries_carousel__container {
+            @include flex(center, center);
+            width: 80%;
+
+            .carousel__image {
+                width: 100%; /* Cada imagem ocupa 100% da largura do contêiner */
+            }
+        }
+    }
+}

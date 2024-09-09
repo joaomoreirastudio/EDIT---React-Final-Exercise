@@ -1,0 +1,26 @@
+[
+    {
+        "productName": "Seating",
+        "productImg": "src/assets/product-category/category-seating.webp"
+    },
+    {
+        "productImg": "src/assets/product-category/category-outdoor.webp",
+        "productName": "Outdoor"
+    },
+    {
+        "productImg": "src/assets/product-category/category-storage.webp",
+        "productName": "Storage"
+    },
+    {
+        "productImg": "src/assets/product-category/category-bedroom.webp",
+        "productName": "Bedroom"
+    },
+    {
+        "productImg": "src/assets/product-category/category-tables.webp",
+        "productName": "Tables"
+    },
+    {
+        "productImg": "src/assets/product-category/category-rugs.webp",
+        "productName": "Rugs"
+    }
+]

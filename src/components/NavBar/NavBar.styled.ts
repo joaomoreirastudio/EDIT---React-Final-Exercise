@@ -1,4 +1,3 @@
-import { FaChevronDown } from "react-icons/fa";
 import styled from "styled-components";
 const flex = (alignItems: string, justifyContent: string) => `
   display: flex;
@@ -8,12 +7,14 @@ const flex = (alignItems: string, justifyContent: string) => `
 
 export const NavbarContainer = styled.div`
     ${flex("center", "space-between")}
-    height: 4rem;
+    height: 2rem;
+    padding: 1rem 1rem 0 1rem;
 `;
 
 export const NavbarMenu = styled.div`
     ${flex("center", "space-between")};
     flex-direction: column;
+    margin-bottom: 16px;
     @media screen and (min-width: 768px) {
         gap: 1rem;
         color: black;
@@ -22,6 +23,7 @@ export const NavbarMenu = styled.div`
 
 export const NavbarMenuDesktop = styled.div`
     display: none;
+    font-size: 16px;
     @media screen and (min-width: 768px) {
         display: block;
     }
@@ -38,6 +40,7 @@ export const NavBarLogoImg = styled.img`
 
 export const NavBarList = styled.li`
     ${flex("center", "space-between")};
+    font-size: 16px;
     @media screen and (min-width: 768px) {
     }
 `;
