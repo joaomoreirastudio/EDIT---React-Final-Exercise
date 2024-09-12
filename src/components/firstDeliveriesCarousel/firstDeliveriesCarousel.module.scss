@@ -10,11 +10,20 @@
 .first__deliveries__carousel {
     padding: 3rem 0 3rem 0;
     .first__deliveries_carousel__container {
-        @include flex(center, center);
-
+        @include flex(center, flex-start);
+        overflow-x: auto;
+        white-space: nowrap;
         gap: 0.5rem;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
         .carousel__image {
-            width: 100%;
+            width: auto;
+            display: inline-block;
         }
     }
 }
@@ -23,13 +32,15 @@
     .first__deliveries__carousel {
         @include flex(center, center);
         flex-direction: column;
-
+        overflow: visible;
+        white-space: normal;
         .first__deliveries_carousel__container {
             @include flex(center, center);
-            width: 80%;
+            width: 100%;
 
             .carousel__image {
-                width: 100%; /* Cada imagem ocupa 100% da largura do contêiner */
+                width: auto;
+                max-width: 100%;
             }
         }
     }

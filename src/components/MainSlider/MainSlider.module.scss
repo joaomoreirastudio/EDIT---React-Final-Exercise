@@ -1,8 +1,4 @@
-@mixin flex($align-items, $justify-content) {
-    display: flex;
-    align-items: $align-items;
-    justify-content: $justify-content;
-}
+@import "../../styles/base.scss";
 .main__slide {
     height: 30rem;
     position: relative;
@@ -10,29 +6,46 @@
     &__content {
         padding: 0 1.5rem 0 1.5rem;
         position: absolute;
-        bottom: 20%;
-        z-index: 0;
+        bottom: 2rem;
         .title {
-            font-size: 1rem;
-            color: white;
+            font-size: 1.5rem;
+            color: $white-color;
             font-weight: normal;
             padding-bottom: 1rem;
         }
         .btn {
-            background-color: #fced70;
+            background-color: $btn-yellow-color;
             border: none;
             padding: 1rem;
             border-radius: 0.25rem;
         }
     }
     &__img {
+        @include flex(center, center);
         overflow: hidden;
+        height: 100%;
 
         img {
             height: 100%;
-            width: 100%;
+
             object-fit: cover;
             object-position: center;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main__slide {
+        &__content {
+            padding-left: 8rem;
+            top: 2rem;
+        }
+        &__img {
+            width: 100%;
+            img {
+                width: 100%;
+                min-height: 768px;
+            }
         }
     }
 }

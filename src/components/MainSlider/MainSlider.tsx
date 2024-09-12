@@ -21,16 +21,7 @@ const MainSlider: React.FC = () => {
                     <button className={styles.btn}>SHOP BEDROOM</button>
                 </div>
                 <div className={styles.main__slide__img}>
-                    <picture>
-                        <source
-                            media="(min-width: 768px)"
-                            srcSet="src/assets/banners/splash-screen.webp"
-                        />
-                        <img
-                            src="src/assets/banners/header.png"
-                            alt="Main Slide"
-                        />
-                    </picture>
+                    <img src="src/assets/banners/header.png" alt="Main Slide" />
                 </div>
             </section>
             {/* Add your component content here */}

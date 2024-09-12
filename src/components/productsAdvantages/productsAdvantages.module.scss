@@ -27,6 +27,7 @@
     .products__advantages {
         @include flex(center, center);
         flex-direction: row;
+        flex-wrap: wrap;
 
         &__info {
             height: 10rem;
