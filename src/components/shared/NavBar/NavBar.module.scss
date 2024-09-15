@@ -1,0 +1,16 @@
+@mixin flex($align-items, $justify-content) {
+    display: flex;
+    align-items: $align-items;
+    justify-content: $justify-content;
+}
+
+.navbar__container {
+    @include flex(center, space-between);
+    background-color: red;
+
+    .navbar__menu {
+        background-color: blue;
+        font-size: 20px;
+        padding-right: 200px;
+    }
+}
