@@ -19,7 +19,7 @@ interface SharedImg {
     sharedImg: string;
 }
 
-function App() {
+function HomePage() {
     const [categories, setCategories] = useState<Category[]>([]);
 
     useEffect(() => {
@@ -53,4 +53,4 @@ function App() {
     );
 }
 
-export default App;
+export default HomePage;

@@ -9,8 +9,8 @@ function App() {
     return (
         <Router>
             <Routes>
-                <Route path="/" Component={HomePage} />
-                <Route path="/products" Component={ProductsPage} />
+                <Route path="/" element={<HomePage />} />
+                <Route path="/ProductsPage" element={<ProductsPage />} />
                 {/* <Route path="/product/:id" component={ProductPage} /> */}
             </Routes>
         </Router>

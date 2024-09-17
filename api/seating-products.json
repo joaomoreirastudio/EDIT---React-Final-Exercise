@@ -46,5 +46,11 @@
         "productImg2": "../src/assets/products/8/product-hover.webp",
         "productName": "Nomad Sofa",
         "productPrice": "$1595 or as low as $100/mo"
+    },
+    {
+        "productImg": "../src/assets/products/1/product.webp",
+        "productImg2": "../src/assets/products/1/product-hover.webp",
+        "productName": "Nomad Sofa",
+        "productPrice": "$1595 or as low as $100/mo"
     }
 ]

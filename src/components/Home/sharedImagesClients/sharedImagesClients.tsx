@@ -25,7 +25,7 @@ const SharedImagesClients: React.FC<SharedImagesClientsProps> = ({
 
     useEffect(() => {
         setTitle(componentKey, "Shop these real-life spaces");
-    }, [setTitle]);
+    }, []);
 
     useEffect(() => {
         const interval = setInterval(() => {

@@ -18,7 +18,7 @@ const MainCategories: React.FC<MainCategoriesProps> = ({ categories }) => {
 
     useEffect(() => {
         setTitle(componentKey, "Clever designs, delivered free");
-    }, [setTitle]);
+    }, []);
 
     return (
         <div>

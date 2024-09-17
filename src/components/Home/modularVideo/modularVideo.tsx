@@ -13,7 +13,7 @@ const ModularVideo = () => {
 
     useEffect(() => {
         setTitle(componentKey, "Modular, easy-to-move design");
-    }, [setTitle]);
+    }, []);
     return (
         <>
             <ModularVideo__Section>

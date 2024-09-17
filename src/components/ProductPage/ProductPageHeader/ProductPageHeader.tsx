@@ -1,20 +1,36 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useTitle } from "../../../context/TitleContext";
 import titleStyles from "../../../context/TitleContext.module.css";
+
+import styles from "./ProductPageHeader.styled";
 
 const ProductsPageHeader = () => {
     const { titles, setTitle } = useTitle();
     const componentKey = "ProductPageHeader";
 
     useEffect(() => {
-        setTitle(componentKey, "Clever designs, delivered free");
-    }, [setTitle]);
+        setTitle(componentKey, "All Seating");
+    }, []);
 
     return (
         <>
-            <h2 className={titleStyles.section__title}>
-                {titles[componentKey]}
-            </h2>
+            <styles.Section__intro__main>
+                <styles.Section__intro__container>
+                    {" "}
+                    <styles.Section__title
+                        className={titleStyles.section__title}
+                    >
+                        {titles[componentKey]}
+                    </styles.Section__title>
+                    <styles.Section__text>
+                        The main feature of any living room is always going to
+                        be the seating. Pick and choose your seating styles to
+                        build the perfect place to relax. Unwind by yourself,
+                        spend time with your family, or entertain guests, all in
+                        ultimate comfort.
+                    </styles.Section__text>
+                </styles.Section__intro__container>
+            </styles.Section__intro__main>
         </>
     );
 };
