@@ -1,56 +1,301 @@
 [
     {
+        "productId": 1,
         "productImg": "../src/assets/products/1/product.webp",
         "productImg2": "../src/assets/products/1/product-hover.webp",
         "productName": "Nomad Sofa",
-        "productPrice": "$1595 or as low as $100/mo"
+        "productPrice": "$1595 or as low as $100/mo",
+        "colors": [
+            {
+                "colorName": "Navy Blue",
+                "colorCode": "#011F89"
+            },
+            {
+                "colorName": "Green",
+                "colorCode": "#3D8901"
+            },
+            {
+                "colorName": "Red",
+                "colorCode": "#890109"
+            },
+            {
+                "colorName": "LightGreen",
+                "colorCode": "#90ee90"
+            },
+            {
+                "colorName": "Black",
+                "colorCode": "#131313"
+            },
+            {
+                "colorName": "Yellow",
+                "colorCode": "#ffff00"
+            }
+        ]
     },
+
     {
+        "productId": 2,
         "productImg": "../src/assets/products/2/product.webp",
         "productImg2": "../src/assets/products/2/product-hover.webp",
         "productName": "Nomad Sofa",
-        "productPrice": "$1595 or as low as $100/mo"
+        "productPrice": "$1595 or as low as $100/mo",
+        "colors": [
+            {
+                "colorName": "Navy Blue",
+                "colorCode": "#011F89"
+            },
+            {
+                "colorName": "Green",
+                "colorCode": "#3D8901"
+            },
+            {
+                "colorName": "Red",
+                "colorCode": "#890109"
+            },
+            {
+                "colorName": "LightGreen",
+                "colorCode": "#90ee90"
+            },
+            {
+                "colorName": "Black",
+                "colorCode": "#131313"
+            },
+            {
+                "colorName": "Yellow",
+                "colorCode": "#ffff00"
+            }
+        ]
     },
+
     {
+        "productId": 3,
         "productImg": "../src/assets/products/3/product.webp",
         "productImg2": "../src/assets/products/3/product-hover.webp",
         "productName": "Nomad Sofa",
-        "productPrice": "$1595 or as low as $100/mo"
+        "productPrice": "$1595 or as low as $100/mo",
+        "colors": [
+            {
+                "colorName": "Navy Blue",
+                "colorCode": "#011F89"
+            },
+            {
+                "colorName": "Green",
+                "colorCode": "#3D8901"
+            },
+            {
+                "colorName": "Red",
+                "colorCode": "#890109"
+            },
+            {
+                "colorName": "LightGreen",
+                "colorCode": "#90ee90"
+            },
+            {
+                "colorName": "Black",
+                "colorCode": "#131313"
+            },
+            {
+                "colorName": "Yellow",
+                "colorCode": "#ffff00"
+            }
+        ]
     },
     {
+        "productId": 4,
         "productImg": "../src/assets/products/4/product.webp",
         "productImg2": "../src/assets/products/4/product-hover.webp",
         "productName": "Nomad Sofa",
-        "productPrice": "$1595 or as low as $100/mo"
+        "productPrice": "$1595 or as low as $100/mo",
+        "colors": [
+            {
+                "colorName": "Navy Blue",
+                "colorCode": "#011F89"
+            },
+            {
+                "colorName": "Green",
+                "colorCode": "#3D8901"
+            },
+            {
+                "colorName": "Red",
+                "colorCode": "#890109"
+            },
+            {
+                "colorName": "LightGreen",
+                "colorCode": "#90ee90"
+            },
+            {
+                "colorName": "Black",
+                "colorCode": "#131313"
+            },
+            {
+                "colorName": "Yellow",
+                "colorCode": "#ffff00"
+            }
+        ]
     },
     {
+        "productId": 5,
         "productImg": "../src/assets/products/5/product.webp",
         "productImg2": "../src/assets/products/5/product-hover.webp",
         "productName": "Nomad Sofa",
-        "productPrice": "$1595 or as low as $100/mo"
+        "productPrice": "$1595 or as low as $100/mo",
+        "colors": [
+            {
+                "colorName": "Navy Blue",
+                "colorCode": "#011F89"
+            },
+            {
+                "colorName": "Green",
+                "colorCode": "#3D8901"
+            },
+            {
+                "colorName": "Red",
+                "colorCode": "#890109"
+            },
+            {
+                "colorName": "LightGreen",
+                "colorCode": "#90ee90"
+            },
+            {
+                "colorName": "Black",
+                "colorCode": "#131313"
+            },
+            {
+                "colorName": "Yellow",
+                "colorCode": "#ffff00"
+            }
+        ]
     },
     {
+        "productId": 6,
         "productImg": "../src/assets/products/6/product.webp",
         "productImg2": "../src/assets/products/6/product-hover.webp",
         "productName": "Nomad Sofa",
-        "productPrice": "$1595 or as low as $100/mo"
+        "productPrice": "$1595 or as low as $100/mo",
+        "colors": [
+            {
+                "colorName": "Navy Blue",
+                "colorCode": "#011F89"
+            },
+            {
+                "colorName": "Green",
+                "colorCode": "#3D8901"
+            },
+            {
+                "colorName": "Red",
+                "colorCode": "#890109"
+            },
+            {
+                "colorName": "LightGreen",
+                "colorCode": "#90ee90"
+            },
+            {
+                "colorName": "Black",
+                "colorCode": "#131313"
+            },
+            {
+                "colorName": "Yellow",
+                "colorCode": "#ffff00"
+            }
+        ]
     },
     {
+        "productId": 7,
         "productImg": "../src/assets/products/7/product.webp",
         "productImg2": "../src/assets/products/7/product-hover.webp",
         "productName": "Nomad Sofa",
-        "productPrice": "$1595 or as low as $100/mo"
+        "productPrice": "$1595 or as low as $100/mo",
+        "colors": [
+            {
+                "colorName": "Navy Blue",
+                "colorCode": "#011F89"
+            },
+            {
+                "colorName": "Green",
+                "colorCode": "#3D8901"
+            },
+            {
+                "colorName": "Red",
+                "colorCode": "#890109"
+            },
+            {
+                "colorName": "LightGreen",
+                "colorCode": "#90ee90"
+            },
+            {
+                "colorName": "Black",
+                "colorCode": "#131313"
+            },
+            {
+                "colorName": "Yellow",
+                "colorCode": "#ffff00"
+            }
+        ]
     },
     {
+        "productId": 8,
         "productImg": "../src/assets/products/8/product.webp",
         "productImg2": "../src/assets/products/8/product-hover.webp",
         "productName": "Nomad Sofa",
-        "productPrice": "$1595 or as low as $100/mo"
+        "productPrice": "$1595 or as low as $100/mo",
+        "colors": [
+            {
+                "colorName": "Navy Blue",
+                "colorCode": "#011F89"
+            },
+            {
+                "colorName": "Green",
+                "colorCode": "#3D8901"
+            },
+            {
+                "colorName": "Red",
+                "colorCode": "#890109"
+            },
+            {
+                "colorName": "LightGreen",
+                "colorCode": "#90ee90"
+            },
+            {
+                "colorName": "Black",
+                "colorCode": "#131313"
+            },
+            {
+                "colorName": "Yellow",
+                "colorCode": "#ffff00"
+            }
+        ]
     },
     {
+        "productId": 9,
         "productImg": "../src/assets/products/1/product.webp",
         "productImg2": "../src/assets/products/1/product-hover.webp",
         "productName": "Nomad Sofa",
-        "productPrice": "$1595 or as low as $100/mo"
+        "productPrice": "$1595 or as low as $100/mo",
+        "colors": [
+            {
+                "colorName": "Navy Blue",
+                "colorCode": "#011F89"
+            },
+            {
+                "colorName": "Green",
+                "colorCode": "#3D8901"
+            },
+            {
+                "colorName": "Red",
+                "colorCode": "#890109"
+            },
+            {
+                "colorName": "LightGreen",
+                "colorCode": "#90ee90"
+            },
+            {
+                "colorName": "Black",
+                "colorCode": "#131313"
+            },
+            {
+                "colorName": "Yellow",
+                "colorCode": "#ffff00"
+            }
+        ]
     }
 ]

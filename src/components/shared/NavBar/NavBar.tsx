@@ -22,12 +22,15 @@ const NavBar = () => {
         setMenuOpen(!menuOpen);
     };
     const handleSeatingClick = () => {
-        navigate("/ProductsPage");
+        navigate("/SeatingProductsPage");
+    };
+    const handleHomeClick = () => {
+        navigate("/");
     };
     return (
         <>
             <NavbarContainer>
-                <NavBarLogo>
+                <NavBarLogo onClick={handleHomeClick}>
                     <NavBarLogoImg src={Logo} />
                 </NavBarLogo>
                 <NavbarMenuDesktop>
@@ -63,7 +66,9 @@ const NavBar = () => {
             <NavbarMenu>
                 {menuOpen && (
                     <NavBarListContainer>
-                        <NavBarList>Seating</NavBarList>
+                        <NavBarList onClick={handleSeatingClick}>
+                            Seating
+                        </NavBarList>
                         <NavBarList>Living Room</NavBarList>
                         <NavBarList>Outdoor</NavBarList>
                         <NavBarList>Bedroom</NavBarList>

@@ -2,11 +2,12 @@ import { useEffect, useState } from "react";
 import { TitleProvider } from "../context/TitleContext";
 import NavBar from "../components/shared/NavBar/NavBar";
 import Footer from "../components/shared/Footer/footer";
-import ProductsPageHeader from "../components/ProductPage/ProductPageHeader/ProductPageHeader";
-import ProductsPageGrid from "../components/ProductPage/ProductPageGrid/productPageGrid";
+import ProductsPageHeader from "../components/CategoryProductPage/ProductPageHeader/ProductPageHeader";
+import ProductsPageGrid from "../components/CategoryProductPage/ProductPageGrid/productPageGrid";
 import styled from "styled-components";
 
 interface Product {
+    productId: number;
     productImg: string;
     productImg2: string;
     productName: string;
@@ -18,7 +19,7 @@ const ContentContainer = styled.div`
     margin: 0 auto;
 `;
 
-function ProductsPage() {
+function SeatingProductsPage() {
     const [products, setProducts] = useState<Product[]>([]);
 
     useEffect(() => {
@@ -40,4 +41,4 @@ function ProductsPage() {
     );
 }
 
-export default ProductsPage;
+export default SeatingProductsPage;

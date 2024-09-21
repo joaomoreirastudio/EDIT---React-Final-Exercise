@@ -29,16 +29,16 @@ export const ProductImg = styled.img`
 `;
 
 export const ProductName = styled.p`
+    font-size: 0.6rem;
+    font-weight: 500;
+    padding: 0.5rem 0 0.5rem 0;
     @media screen and (min-width: 768px) {
-        font-size: 0.6rem;
-        font-weight: 500;
-        padding: 0.5rem 0 0.5rem 0;
     }
 `;
 export const ProductPrice = styled.p`
+    font-size: 0.5rem;
+    color: #9c9c9c;
+    padding-bottom: 1rem;
     @media screen and (min-width: 768px) {
-        font-size: 0.5rem;
-        color: #9c9c9c;
-        padding-bottom: 1rem;
     }
 `;
