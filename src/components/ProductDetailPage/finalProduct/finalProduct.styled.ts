@@ -101,4 +101,14 @@ export const ColorCircle = styled.div`
     height: 1rem;
     border-radius: 50%;
     background-color: ${(props) => props.color};
+
+    &:active {
+        border: 2px solid black;
+        box-sizing: border-box;
+    }
+
+    &.activeColor {
+        border: 2px solid black;
+        box-sizing: border-box;
+    }
 `;

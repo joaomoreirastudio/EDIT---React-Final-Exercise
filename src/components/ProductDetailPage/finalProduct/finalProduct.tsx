@@ -27,12 +27,15 @@ interface Color {
     colorCode: string;
 }
 
-interface FinalProductProps {}
+interface FinalProductProps {
+    products: Product[];
+}
 const FinalProduct: React.FC<FinalProductProps> = () => {
     const { id } = useParams<{ id: string }>() as { id: string };
     const [product, setProduct] = useState<Product | null>(null);
     const [selectedColor, setSelectedColor] = useState<string | null>(null);
     const [error, setError] = useState<string | null>(null);
+    const [activeColor, setActiveColor] = useState<string | null>(null);
 
     useEffect(() => {
         const fetchProduct = async () => {
@@ -68,8 +71,9 @@ const FinalProduct: React.FC<FinalProductProps> = () => {
     if (!product) {
         return <div>Loading...</div>;
     }
-    const handleColorClick = (colorName: string) => {
+    const handleColorClick = (colorName: string, colorCode: string) => {
         setSelectedColor(colorName);
+        setActiveColor(colorCode);
     };
 
     return (
@@ -119,14 +123,21 @@ const FinalProduct: React.FC<FinalProductProps> = () => {
                         </div>
                         <FinalProductColor__Container>
                             {product.colors.map((color) => (
-                                <div
-                                    key={color.colorName}
-                                    onClick={() =>
-                                        handleColorClick(color.colorName)
+                                <ColorCircle
+                                    key={color.colorCode}
+                                    color={color.colorCode}
+                                    className={
+                                        activeColor === color.colorCode
+                                            ? "activeColor"
+                                            : ""
                                     }
-                                >
-                                    <ColorCircle color={color.colorCode} />
-                                </div>
+                                    onClick={() =>
+                                        handleColorClick(
+                                            color.colorName,
+                                            color.colorCode
+                                        )
+                                    }
+                                />
                             ))}
                         </FinalProductColor__Container>
                     </FinalProductColor__section>

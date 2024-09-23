@@ -8,6 +8,7 @@ interface Product {
     productImg2: string;
     productName: string;
     productPrice: string;
+    colors: any[];
 }
 function ProductPage() {
     const [products, setProducts] = useState<Product[]>([]);
@@ -21,7 +22,7 @@ function ProductPage() {
     return (
         <>
             <NavBar />
-            <FinalProduct />
+            <FinalProduct products={products} />
             <Footer />
         </>
     );
