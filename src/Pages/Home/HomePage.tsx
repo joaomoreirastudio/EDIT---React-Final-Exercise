@@ -44,7 +44,7 @@ function HomePage() {
                 <MainCategories categories={categories} />
                 <ProductsAdvantages />
                 <FirstDeliveriesCarousel />
-                <NomadSection />
+                <NomadSection title={""} />
                 <SharedImagesClients sharedImgGrid={sharedImg} />
                 <ModularVideo />
                 <Footer />
