@@ -23,7 +23,7 @@ function HomePage() {
     const [categories, setCategories] = useState<Category[]>([]);
 
     useEffect(() => {
-        fetch("/product-category.json")
+        fetch("/public/api/product-category.json")
             .then((response) => response.json())
             .then((data) => setCategories(data))
             .catch((error) => console.error("Error fetching data:", error));
