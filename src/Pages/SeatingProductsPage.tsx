@@ -23,7 +23,7 @@ function SeatingProductsPage() {
     const [products, setProducts] = useState<Product[]>([]);
 
     useEffect(() => {
-        fetch("../../api/seating-products.json")
+        fetch("/api/seating-products.json")
             .then((response) => response.json())
             .then((data) => setProducts(data))
             .catch((error) => console.error("Error fetching data:", error));
