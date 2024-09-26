@@ -1,26 +1,26 @@
 [
     {
         "productName": "Seating",
-        "productImg": "../../src/assets/product-category/category-seating.webp"
+        "productImg": "/src/assets/product-category/category-seating.webp"
     },
     {
-        "productImg": "../../src/assets/product-category/category-outdoor.webp",
-        "productName": "Outdoor"
+        "productName": "Outdoor",
+        "productImg": "/src/assets/product-category/category-outdoor.webp"
     },
     {
-        "productImg": "../../src/assets/product-category/category-storage.webp",
-        "productName": "Storage"
+        "productName": "Storage",
+        "productImg": "/src/assets/product-category/category-storage.webp"
     },
     {
-        "productImg": "../../src/assets/product-category/category-bedroom.webp",
-        "productName": "Bedroom"
+        "productName": "Bedroom",
+        "productImg": "/src/assets/product-category/category-bedroom.webp"
     },
     {
-        "productImg": "../../src/assets/product-category/category-tables.webp",
-        "productName": "Tables"
+        "productName": "Tables",
+        "productImg": "/src/assets/product-category/category-tables.webp"
     },
     {
-        "productImg": "../../src/assets/product-category/category-rugs.webp",
-        "productName": "Rugs"
+        "productName": "Rugs",
+        "productImg": "/src/assets/product-category/category-rugs.webp"
     }
 ]
