@@ -13,7 +13,7 @@ interface NomadSectionProps {
     title: string;
 }
 
-const NomadSection: React.FC = () => {
+const NomadSection: React.FC<NomadSectionProps> = () => {
     return (
         <>
             <NomadSection__Container>

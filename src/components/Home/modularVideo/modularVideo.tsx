@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useTitle } from "../../../context/TitleContext";
 import titleStyles from "../../../context/TitleContext.module.css";
 import modularVideo from "../../../assets/video/background-video.mp4";
