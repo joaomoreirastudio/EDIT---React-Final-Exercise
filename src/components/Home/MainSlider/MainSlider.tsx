@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./MainSlider.module.scss";
+import mainSliderImg from "../../../assets/banners/header.png";
 
 // interface MainSliderProps {
 //     title: string;
@@ -21,7 +22,7 @@ const MainSlider: React.FC = () => {
                     <button className={styles.btn}>SHOP BEDROOM</button>
                 </div>
                 <div className={styles.main__slide__img}>
-                    <img src="src/assets/banners/header.png" alt="Main Slide" />
+                    <img src={mainSliderImg} alt="Main Slide" />
                 </div>
             </section>
             {/* Add your component content here */}

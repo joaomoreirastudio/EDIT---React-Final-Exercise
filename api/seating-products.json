@@ -1,24 +1,24 @@
 [
     {
         "productId": 1,
-        "productImg": "../src/assets/products/1/product.webp",
-        "productImg2": "../src/assets/products/1/product-hover.webp",
+        "productImg": "../../../src/assets/products/1/product.webp",
+        "productImg2": "../../../src/assets/products/1/product-hover.webp",
         "productName": "Nomad Sofa",
         "productPrice": "$1595 or as low as $100/mo",
         "armStyle": [
             {
-                "armStyle1": "../src/assets/products/armstyles/armStyle1.png"
+                "armStyle1": "../../../src/assets/products/armstyles/armStyle1.png"
             },
             {
-                "armStyle2": "../src/assets/products/armstyles/armStyle2.png"
+                "armStyle2": "../../../src/assets/products/armstyles/armStyle2.png"
             }
         ],
         "flipBackCushion": [
             {
-                "flipbackCushion1": "../src/assets/products/flipBackCushions/flipBackCushion1.png"
+                "flipbackCushion1": "../../../src/assets/products/flipBackCushions/flipBackCushion1.png"
             },
             {
-                "flipbackCushion2": "../src/assets/products/flipBackCushions/flipBackCushion2.png"
+                "flipbackCushion2": "../../../src/assets/products/flipBackCushions/flipBackCushion2.png"
             }
         ],
         "colors": [
@@ -51,8 +51,8 @@
 
     {
         "productId": 2,
-        "productImg": "../src/assets/products/2/product.webp",
-        "productImg2": "../src/assets/products/2/product-hover.webp",
+        "productImg": "../../../src/assets/products/2/product.webp",
+        "productImg2": "../../../src/assets/products/2/product-hover.webp",
         "productName": "Nomad Sofa",
         "productPrice": "$1595 or as low as $100/mo",
         "colors": [
@@ -85,8 +85,8 @@
 
     {
         "productId": 3,
-        "productImg": "../src/assets/products/3/product.webp",
-        "productImg2": "../src/assets/products/3/product-hover.webp",
+        "productImg": "../../../src/assets/products/3/product.webp",
+        "productImg2": "../../../src/assets/products/3/product-hover.webp",
         "productName": "Nomad Sofa",
         "productPrice": "$1595 or as low as $100/mo",
         "colors": [
@@ -118,8 +118,8 @@
     },
     {
         "productId": 4,
-        "productImg": "../src/assets/products/4/product.webp",
-        "productImg2": "../src/assets/products/4/product-hover.webp",
+        "productImg": "../../../src/assets/products/4/product.webp",
+        "productImg2": "../../../src/assets/products/4/product-hover.webp",
         "productName": "Nomad Sofa",
         "productPrice": "$1595 or as low as $100/mo",
         "colors": [
@@ -151,8 +151,8 @@
     },
     {
         "productId": 5,
-        "productImg": "../src/assets/products/5/product.webp",
-        "productImg2": "../src/assets/products/5/product-hover.webp",
+        "productImg": "../../../src/assets/products/5/product.webp",
+        "productImg2": "../../../src/assets/products/5/product-hover.webp",
         "productName": "Nomad Sofa",
         "productPrice": "$1595 or as low as $100/mo",
         "colors": [
@@ -184,8 +184,8 @@
     },
     {
         "productId": 6,
-        "productImg": "../src/assets/products/6/product.webp",
-        "productImg2": "../src/assets/products/6/product-hover.webp",
+        "productImg": "../../../src/assets/products/6/product.webp",
+        "productImg2": "../../../src/assets/products/6/product-hover.webp",
         "productName": "Nomad Sofa",
         "productPrice": "$1595 or as low as $100/mo",
         "colors": [
@@ -217,8 +217,8 @@
     },
     {
         "productId": 7,
-        "productImg": "../src/assets/products/7/product.webp",
-        "productImg2": "../src/assets/products/7/product-hover.webp",
+        "productImg": "../../../src/assets/products/7/product.webp",
+        "productImg2": "../../../src/assets/products/7/product-hover.webp",
         "productName": "Nomad Sofa",
         "productPrice": "$1595 or as low as $100/mo",
         "colors": [
@@ -250,8 +250,8 @@
     },
     {
         "productId": 8,
-        "productImg": "../src/assets/products/8/product.webp",
-        "productImg2": "../src/assets/products/8/product-hover.webp",
+        "productImg": "../../../src/assets/products/8/product.webp",
+        "productImg2": "../../../src/assets/products/8/product-hover.webp",
         "productName": "Nomad Sofa",
         "productPrice": "$1595 or as low as $100/mo",
         "colors": [
@@ -283,8 +283,8 @@
     },
     {
         "productId": 9,
-        "productImg": "../src/assets/products/1/product.webp",
-        "productImg2": "../src/assets/products/1/product-hover.webp",
+        "productImg": "../../../src/assets/products/1/product.webp",
+        "productImg2": "../../../src/assets/products/1/product-hover.webp",
         "productName": "Nomad Sofa",
         "productPrice": "$1595 or as low as $100/mo",
         "colors": [
