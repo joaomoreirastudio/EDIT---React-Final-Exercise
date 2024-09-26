@@ -23,7 +23,7 @@ function HomePage() {
     const [categories, setCategories] = useState<Category[]>([]);
 
     useEffect(() => {
-        fetch("/public/api/product-category.json")
+        fetch("/api/product-category.json")
             .then((response) => response.json())
             .then((data) => setCategories(data))
             .catch((error) => console.error("Error fetching data:", error));
@@ -31,7 +31,7 @@ function HomePage() {
     const [sharedImg, SetSharedImg] = useState<SharedImg[]>([]);
 
     useEffect(() => {
-        fetch("/shared-images.json")
+        fetch("/api/shared-images.json")
             .then((response) => response.json())
             .then((data) => SetSharedImg(data))
             .catch((error) => console.error("Error fetching data:", error));
