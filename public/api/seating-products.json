@@ -55,6 +55,22 @@
         "productImg2": "/assets/products/2/product-hover.webp",
         "productName": "Nomad Sofa",
         "productPrice": "$1595 or as low as $100/mo",
+        "armStyle": [
+            {
+                "armStyle1": "/assets/products/armstyles/armStyle1.png"
+            },
+            {
+                "armStyle2": "/assets/products/armstyles/armStyle2.png"
+            }
+        ],
+        "flipBackCushion": [
+            {
+                "flipbackCushion1": "/assets/products/flipBackCushions/flipBackCushion1.png"
+            },
+            {
+                "flipbackCushion2": "/assets/products/flipBackCushions/flipBackCushion2.png"
+            }
+        ],
         "colors": [
             {
                 "colorName": "Navy Blue",
@@ -89,6 +105,22 @@
         "productImg2": "/assets/products/3/product-hover.webp",
         "productName": "Nomad Sofa",
         "productPrice": "$1595 or as low as $100/mo",
+        "armStyle": [
+            {
+                "armStyle1": "/assets/products/armstyles/armStyle1.png"
+            },
+            {
+                "armStyle2": "/assets/products/armstyles/armStyle2.png"
+            }
+        ],
+        "flipBackCushion": [
+            {
+                "flipbackCushion1": "/assets/products/flipBackCushions/flipBackCushion1.png"
+            },
+            {
+                "flipbackCushion2": "/assets/products/flipBackCushions/flipBackCushion2.png"
+            }
+        ],
         "colors": [
             {
                 "colorName": "Navy Blue",
@@ -122,6 +154,22 @@
         "productImg2": "/assets/products/4/product-hover.webp",
         "productName": "Nomad Sofa",
         "productPrice": "$1595 or as low as $100/mo",
+        "armStyle": [
+            {
+                "armStyle1": "/assets/products/armstyles/armStyle1.png"
+            },
+            {
+                "armStyle2": "/assets/products/armstyles/armStyle2.png"
+            }
+        ],
+        "flipBackCushion": [
+            {
+                "flipbackCushion1": "/assets/products/flipBackCushions/flipBackCushion1.png"
+            },
+            {
+                "flipbackCushion2": "/assets/products/flipBackCushions/flipBackCushion2.png"
+            }
+        ],
         "colors": [
             {
                 "colorName": "Navy Blue",
@@ -155,6 +203,22 @@
         "productImg2": "/assets/products/5/product-hover.webp",
         "productName": "Nomad Sofa",
         "productPrice": "$1595 or as low as $100/mo",
+        "armStyle": [
+            {
+                "armStyle1": "/assets/products/armstyles/armStyle1.png"
+            },
+            {
+                "armStyle2": "/assets/products/armstyles/armStyle2.png"
+            }
+        ],
+        "flipBackCushion": [
+            {
+                "flipbackCushion1": "/assets/products/flipBackCushions/flipBackCushion1.png"
+            },
+            {
+                "flipbackCushion2": "/assets/products/flipBackCushions/flipBackCushion2.png"
+            }
+        ],
         "colors": [
             {
                 "colorName": "Navy Blue",
@@ -188,6 +252,22 @@
         "productImg2": "/assets/products/6/product-hover.webp",
         "productName": "Nomad Sofa",
         "productPrice": "$1595 or as low as $100/mo",
+        "armStyle": [
+            {
+                "armStyle1": "/assets/products/armstyles/armStyle1.png"
+            },
+            {
+                "armStyle2": "/assets/products/armstyles/armStyle2.png"
+            }
+        ],
+        "flipBackCushion": [
+            {
+                "flipbackCushion1": "/assets/products/flipBackCushions/flipBackCushion1.png"
+            },
+            {
+                "flipbackCushion2": "/assets/products/flipBackCushions/flipBackCushion2.png"
+            }
+        ],
         "colors": [
             {
                 "colorName": "Navy Blue",
@@ -221,6 +301,22 @@
         "productImg2": "/assets/products/7/product-hover.webp",
         "productName": "Nomad Sofa",
         "productPrice": "$1595 or as low as $100/mo",
+        "armStyle": [
+            {
+                "armStyle1": "/assets/products/armstyles/armStyle1.png"
+            },
+            {
+                "armStyle2": "/assets/products/armstyles/armStyle2.png"
+            }
+        ],
+        "flipBackCushion": [
+            {
+                "flipbackCushion1": "/assets/products/flipBackCushions/flipBackCushion1.png"
+            },
+            {
+                "flipbackCushion2": "/assets/products/flipBackCushions/flipBackCushion2.png"
+            }
+        ],
         "colors": [
             {
                 "colorName": "Navy Blue",
@@ -254,6 +350,22 @@
         "productImg2": "/assets/products/8/product-hover.webp",
         "productName": "Nomad Sofa",
         "productPrice": "$1595 or as low as $100/mo",
+        "armStyle": [
+            {
+                "armStyle1": "/assets/products/armstyles/armStyle1.png"
+            },
+            {
+                "armStyle2": "/assets/products/armstyles/armStyle2.png"
+            }
+        ],
+        "flipBackCushion": [
+            {
+                "flipbackCushion1": "/assets/products/flipBackCushions/flipBackCushion1.png"
+            },
+            {
+                "flipbackCushion2": "/assets/products/flipBackCushions/flipBackCushion2.png"
+            }
+        ],
         "colors": [
             {
                 "colorName": "Navy Blue",
@@ -287,6 +399,22 @@
         "productImg2": "/assets/products/1/product-hover.webp",
         "productName": "Nomad Sofa",
         "productPrice": "$1595 or as low as $100/mo",
+        "armStyle": [
+            {
+                "armStyle1": "/assets/products/armstyles/armStyle1.png"
+            },
+            {
+                "armStyle2": "/assets/products/armstyles/armStyle2.png"
+            }
+        ],
+        "flipBackCushion": [
+            {
+                "flipbackCushion1": "/assets/products/flipBackCushions/flipBackCushion1.png"
+            },
+            {
+                "flipbackCushion2": "/assets/products/flipBackCushions/flipBackCushion2.png"
+            }
+        ],
         "colors": [
             {
                 "colorName": "Navy Blue",

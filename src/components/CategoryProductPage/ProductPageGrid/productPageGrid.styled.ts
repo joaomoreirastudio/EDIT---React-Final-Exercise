@@ -42,3 +42,19 @@ export const ProductPrice = styled.p`
     @media screen and (min-width: 768px) {
     }
 `;
+
+export const Btn__Container = styled.div`
+    width: 100%;
+    padding: 1rem;
+    ${flex("center", "center")};
+    @media screen and (min-width: 768px) {
+        /* position: absolute;
+        bottom: 6rem; */
+    }
+`;
+export const YellowBtn = styled.button`
+    background-color: #fced70;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.25rem;
+`;

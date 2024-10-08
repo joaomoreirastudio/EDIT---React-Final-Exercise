@@ -6,6 +6,8 @@ import {
     ProductImg,
     ProductName,
     ProductPrice,
+    YellowBtn,
+    Btn__Container,
 } from "./productPageGrid.styled";
 
 interface Product {
@@ -79,6 +81,9 @@ const ProductsPageGrid: React.FC<ProductPageGridProps> = ({ products }) => {
                     </ProductItem>
                 ))}
             </ProductPageGridContainer>
+            <Btn__Container>
+                <YellowBtn>SEE MORE</YellowBtn>
+            </Btn__Container>
         </section>
     );
 };

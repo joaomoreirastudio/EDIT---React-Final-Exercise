@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import armstyle1 from "/assets/products/armstyles/armstyle1.png";
+import armstyle2 from "/assets/products/armstyles/armstyle2.png";
+import flipbackcushion1 from "/assets/products/flipBackCushions/flipBackCushion1.png";
+import flipbackcushion2 from "/assets/products/flipBackCushions/flipBackCushion2.png";
 import {
     FinalProductContainer,
     FinalProductImages__container,
@@ -13,6 +17,16 @@ import {
     FinalProductColor__Container,
     FinalProductColor__Title,
     ColorCircle,
+    CustomConfigs,
+    CustomConfigTitles,
+    CustomConfigCategories,
+    UpgradeLabel,
+    UpgradeInput,
+    UpgradeInput__text,
+    UpgradeItems,
+    YellowBtn,
+    Btn__Container,
+    FinalProductSection,
 } from "./finalProduct.styled";
 interface Product {
     productId: number;
@@ -36,6 +50,7 @@ const FinalProduct: React.FC<FinalProductProps> = () => {
     const [selectedColor, setSelectedColor] = useState<string | null>(null);
     const [error, setError] = useState<string | null>(null);
     const [activeColor, setActiveColor] = useState<string | null>(null);
+    const [selectedItems, setSelectedItems] = useState<string[]>([]);
 
     useEffect(() => {
         const fetchProduct = async () => {
@@ -75,97 +90,148 @@ const FinalProduct: React.FC<FinalProductProps> = () => {
         setSelectedColor(colorName);
         setActiveColor(colorCode);
     };
+    const handleCheckboxChange = (item: string) => {
+        setSelectedItems((prevSelectedItems) =>
+            prevSelectedItems.includes(item)
+                ? prevSelectedItems.filter((i) => i !== item)
+                : [...prevSelectedItems, item]
+        );
+    };
+    const items = [
+        { label: "Moveable chaise + $495", value: "moveable_chaise" },
+        { label: "Ottoman + $345", value: "ottoman" },
+        { label: "Lumbar Pillows + $135", value: "lumbar_pillows" },
+        { label: "Sleep Kit + $295", value: "sleep_kit" },
+    ];
 
     return (
         <>
-            <FinalProductContainer>
+            <FinalProductSection>
                 <TitleCollection>Nomad Collection</TitleCollection>
-                <FinalProductImages__container>
-                    <FinalProductImages__Main>
-                        <img
-                            src={product.productImg}
-                            alt={product.productName}
-                        />
-                    </FinalProductImages__Main>
-                    <FinalProductImages__ThumbnailsContainer>
-                        <img
-                            src={product.productImg2}
-                            alt={product.productName}
-                        />
-                        <img
-                            src={product.productImg}
-                            alt={product.productName}
-                        />
-                        <img
-                            src={product.productImg2}
-                            alt={product.productName}
-                        />
-                        <img
-                            src={product.productImg}
-                            alt={product.productName}
-                        />
-                    </FinalProductImages__ThumbnailsContainer>
-                </FinalProductImages__container>
-                <FinalProductInfo>
-                    <FinalProductInfo__Title>
-                        {product.productName}
-                    </FinalProductInfo__Title>
-                    <FinalProductInfo__Price>
-                        {product.productPrice} + Free Shipping
-                    </FinalProductInfo__Price>
-                    <FinalProductColor__section>
-                        <div>
-                            {selectedColor && (
-                                <FinalProductColor__Title>
-                                    {selectedColor}
-                                </FinalProductColor__Title>
-                            )}
-                        </div>
-                        <FinalProductColor__Container>
-                            {product.colors.map((color) => (
-                                <ColorCircle
-                                    key={color.colorCode}
-                                    color={color.colorCode}
-                                    className={
-                                        activeColor === color.colorCode
-                                            ? "activeColor"
-                                            : ""
-                                    }
-                                    onClick={() =>
-                                        handleColorClick(
-                                            color.colorName,
-                                            color.colorCode
-                                        )
-                                    }
-                                />
+                <FinalProductContainer>
+                    <FinalProductImages__container>
+                        <FinalProductImages__Main>
+                            <img
+                                src={product.productImg}
+                                alt={product.productName}
+                            />
+                        </FinalProductImages__Main>
+                        <FinalProductImages__ThumbnailsContainer>
+                            <img
+                                src={product.productImg2}
+                                alt={product.productName}
+                            />
+                            <img
+                                src={product.productImg}
+                                alt={product.productName}
+                            />
+                            <img
+                                src={product.productImg2}
+                                alt={product.productName}
+                            />
+                            <img
+                                src={product.productImg}
+                                alt={product.productName}
+                            />
+                        </FinalProductImages__ThumbnailsContainer>
+                    </FinalProductImages__container>
+                    <FinalProductInfo>
+                        <FinalProductInfo__Title>
+                            {product.productName}
+                        </FinalProductInfo__Title>
+                        <FinalProductInfo__Price>
+                            {product.productPrice} + Free Shipping
+                        </FinalProductInfo__Price>
+                        <FinalProductColor__section>
+                            <div>
+                                {selectedColor && (
+                                    <FinalProductColor__Title>
+                                        {selectedColor}
+                                    </FinalProductColor__Title>
+                                )}
+                            </div>
+                            <FinalProductColor__Container>
+                                {product.colors.map((color) => (
+                                    <ColorCircle
+                                        key={color.colorCode}
+                                        color={color.colorCode}
+                                        className={
+                                            activeColor === color.colorCode
+                                                ? "activeColor"
+                                                : ""
+                                        }
+                                        onClick={() =>
+                                            handleColorClick(
+                                                color.colorName,
+                                                color.colorCode
+                                            )
+                                        }
+                                    />
+                                ))}
+                            </FinalProductColor__Container>
+                        </FinalProductColor__section>
+
+                        <CustomConfigs>
+                            <CustomConfigCategories>
+                                <CustomConfigTitles>
+                                    Arm Style
+                                </CustomConfigTitles>
+                                <div className="configImg__Container">
+                                    <div className="configImg__Content__armstyle">
+                                        <img src={armstyle1} alt="armstyle1" />
+                                    </div>
+
+                                    <div className="configImg__Content__armstyle">
+                                        <img src={armstyle2} alt="armstyle2" />
+                                    </div>
+                                </div>
+                            </CustomConfigCategories>
+                            <CustomConfigCategories>
+                                <CustomConfigTitles>
+                                    Flip Back Cushions
+                                </CustomConfigTitles>
+                                <div className="configImg__Container">
+                                    <div className="configImg__Content__flipback">
+                                        <img
+                                            src={flipbackcushion1}
+                                            alt="flipbackcushion1"
+                                        />
+                                    </div>
+                                    <div className="configImg__Content__flipback">
+                                        <img
+                                            src={flipbackcushion2}
+                                            alt="flipbackcushion2"
+                                        />
+                                    </div>
+                                </div>
+                            </CustomConfigCategories>
+                        </CustomConfigs>
+                        <UpgradeItems>
+                            <UpgradeLabel>Upgrades</UpgradeLabel>
+                            {items.map((item) => (
+                                <label key={item.value}>
+                                    <UpgradeInput
+                                        type="checkbox"
+                                        value={item.value}
+                                        checked={selectedItems.includes(
+                                            item.value
+                                        )}
+                                        onChange={() =>
+                                            handleCheckboxChange(item.value)
+                                        }
+                                    />
+                                    <UpgradeInput__text>
+                                        {item.label}
+                                    </UpgradeInput__text>
+                                </label>
                             ))}
-                        </FinalProductColor__Container>
-                    </FinalProductColor__section>
-                </FinalProductInfo>
-                <div>
-                    <div>
-                        <span>Arm Style</span>
-                        <div>
-                            <span>config</span>
-                            <span>config</span>
-                        </div>
-                    </div>
-                    <div>
-                        <span>Flip Back Cushions</span>
-                        <div>
-                            <span>config</span>
-                            <span>config</span>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <span>Upgrades</span>
-                    <span>items</span>
-                    <span>items</span>
-                    <span>items</span>
-                    <span>items</span>
-                </div>
-            </FinalProductContainer>
+                        </UpgradeItems>
+                        <Btn__Container>
+                            <YellowBtn>ADD TO CART</YellowBtn>
+                        </Btn__Container>
+                    </FinalProductInfo>
+                </FinalProductContainer>
+            </FinalProductSection>
         </>
     );
 };

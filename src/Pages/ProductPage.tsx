@@ -1,7 +1,10 @@
-import  { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import NavBar from "../components/shared/NavBar/NavBar";
 import Footer from "../components/shared/Footer/footer";
 import FinalProduct from "../components/ProductDetailPage/finalProduct/finalProduct";
+import ProductDimensions from "../components/ProductDetailPage/ProductDimensions/ProductDimensions";
+import AboutThisProduct from "../components/ProductDetailPage/AboutProduct/AboutThisProduct";
+import ProductKeyFeatures from "../components/ProductDetailPage/ProductKeyFeatures/ProductKeyFeatures";
 interface Product {
     productId: number;
     productImg: string;
@@ -23,6 +26,9 @@ function ProductPage() {
         <>
             <NavBar />
             <FinalProduct products={products} />
+            <ProductDimensions />
+            <AboutThisProduct />
+            <ProductKeyFeatures />
             <Footer />
         </>
     );
