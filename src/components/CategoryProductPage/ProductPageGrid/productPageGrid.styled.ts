@@ -45,7 +45,7 @@ export const ProductPrice = styled.p`
 
 export const Btn__Container = styled.div`
     width: 100%;
-    padding: 1rem;
+    padding: 1rem 0;
     ${flex("center", "center")};
     @media screen and (min-width: 768px) {
         /* position: absolute;

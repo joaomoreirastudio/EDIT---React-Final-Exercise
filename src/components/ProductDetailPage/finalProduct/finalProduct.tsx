@@ -51,6 +51,8 @@ const FinalProduct: React.FC<FinalProductProps> = () => {
     const [error, setError] = useState<string | null>(null);
     const [activeColor, setActiveColor] = useState<string | null>(null);
     const [selectedItems, setSelectedItems] = useState<string[]>([]);
+    const [selectedConfig, setSelectedConfig] = useState("");
+    const [mainImage, setMainImage] = useState<string>("");
 
     useEffect(() => {
         const fetchProduct = async () => {
@@ -70,6 +72,7 @@ const FinalProduct: React.FC<FinalProductProps> = () => {
                     }
                     setProduct(product);
                     setSelectedColor(product.colors[0].colorName);
+                    setMainImage(product.productImg);
                 })
                 .catch((error) => {
                     setError(error.message),
@@ -86,6 +89,10 @@ const FinalProduct: React.FC<FinalProductProps> = () => {
     if (!product) {
         return <div>Loading...</div>;
     }
+
+    const handleThumbnailClick = (image: string) => {
+        setMainImage(image);
+    };
     const handleColorClick = (colorName: string, colorCode: string) => {
         setSelectedColor(colorName);
         setActiveColor(colorCode);
@@ -96,6 +103,9 @@ const FinalProduct: React.FC<FinalProductProps> = () => {
                 ? prevSelectedItems.filter((i) => i !== item)
                 : [...prevSelectedItems, item]
         );
+    };
+    const handleConfigClick = (configName: string) => {
+        setSelectedConfig(configName);
     };
     const items = [
         { label: "Moveable chaise + $495", value: "moveable_chaise" },
@@ -111,27 +121,36 @@ const FinalProduct: React.FC<FinalProductProps> = () => {
                 <FinalProductContainer>
                     <FinalProductImages__container>
                         <FinalProductImages__Main>
-                            <img
-                                src={product.productImg}
-                                alt={product.productName}
-                            />
+                            <img src={mainImage} alt={product.productName} />
                         </FinalProductImages__Main>
                         <FinalProductImages__ThumbnailsContainer>
                             <img
                                 src={product.productImg2}
                                 alt={product.productName}
+                                onClick={() =>
+                                    handleThumbnailClick(product.productImg2)
+                                }
                             />
                             <img
                                 src={product.productImg}
                                 alt={product.productName}
+                                onClick={() =>
+                                    handleThumbnailClick(product.productImg)
+                                }
                             />
                             <img
                                 src={product.productImg2}
                                 alt={product.productName}
+                                onClick={() =>
+                                    handleThumbnailClick(product.productImg2)
+                                }
                             />
                             <img
                                 src={product.productImg}
                                 alt={product.productName}
+                                onClick={() =>
+                                    handleThumbnailClick(product.productImg)
+                                }
                             />
                         </FinalProductImages__ThumbnailsContainer>
                     </FinalProductImages__container>
@@ -173,31 +192,91 @@ const FinalProduct: React.FC<FinalProductProps> = () => {
 
                         <CustomConfigs>
                             <CustomConfigCategories>
-                                <CustomConfigTitles>
+                                <CustomConfigTitles
+                                    onClick={() =>
+                                        handleConfigClick("Arm Style")
+                                    }
+                                    className={
+                                        selectedConfig === "Arm Style"
+                                            ? "selectedConfig"
+                                            : ""
+                                    }
+                                >
                                     Arm Style
                                 </CustomConfigTitles>
                                 <div className="configImg__Container">
-                                    <div className="configImg__Content__armstyle">
+                                    <div
+                                        className={`configImg__Content__armstyle ${
+                                            selectedConfig === "Arm Style1"
+                                                ? "active"
+                                                : ""
+                                        }`}
+                                        onClick={() =>
+                                            handleConfigClick("Arm Style1")
+                                        }
+                                    >
                                         <img src={armstyle1} alt="armstyle1" />
                                     </div>
 
-                                    <div className="configImg__Content__armstyle">
+                                    <div
+                                        className={`configImg__Content__armstyle ${
+                                            selectedConfig === "Arm Style2"
+                                                ? "active"
+                                                : ""
+                                        }`}
+                                        onClick={() =>
+                                            handleConfigClick("Arm Style2")
+                                        }
+                                    >
                                         <img src={armstyle2} alt="armstyle2" />
                                     </div>
                                 </div>
                             </CustomConfigCategories>
                             <CustomConfigCategories>
-                                <CustomConfigTitles>
+                                <CustomConfigTitles
+                                    onClick={() =>
+                                        handleConfigClick("FlipBackCushion")
+                                    }
+                                    className={
+                                        selectedConfig === "FlipBackCushion"
+                                            ? "selectedConfig"
+                                            : ""
+                                    }
+                                >
                                     Flip Back Cushions
                                 </CustomConfigTitles>
                                 <div className="configImg__Container">
-                                    <div className="configImg__Content__flipback">
+                                    <div
+                                        className={`configImg__Content__flipback ${
+                                            selectedConfig ===
+                                            "FlipBackCushion1"
+                                                ? "active"
+                                                : ""
+                                        }`}
+                                        onClick={() =>
+                                            handleConfigClick(
+                                                "FlipBackCushion1"
+                                            )
+                                        }
+                                    >
                                         <img
                                             src={flipbackcushion1}
                                             alt="flipbackcushion1"
                                         />
                                     </div>
-                                    <div className="configImg__Content__flipback">
+                                    <div
+                                        className={`configImg__Content__flipback ${
+                                            selectedConfig ===
+                                            "FlipBackCushion2"
+                                                ? "active"
+                                                : ""
+                                        }`}
+                                        onClick={() =>
+                                            handleConfigClick(
+                                                "FlipBackCushion2"
+                                            )
+                                        }
+                                    >
                                         <img
                                             src={flipbackcushion2}
                                             alt="flipbackcushion2"

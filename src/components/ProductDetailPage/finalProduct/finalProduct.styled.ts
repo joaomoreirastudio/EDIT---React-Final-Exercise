@@ -162,10 +162,39 @@ export const CustomConfigCategories = styled.div`
 
     .configImg__Content__armstyle {
         width: 1rem;
+        cursor: pointer;
+        padding: 10px;
+
+        margin: 5px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            border: 1px solid #9c9c9c;
+        }
+    }
+
+    .configImg__Content__armstyle.active {
+        border: 1px solid #9c9c9c;
     }
     .configImg__Content__flipback {
         width: 1.5rem;
+        cursor: pointer;
+        padding: 10px;
+
+        margin: 5px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            border: 1px solid #9c9c9c;
+        }
     }
+
+    .configImg__Content__flipback.active {
+        border: 1px solid #9c9c9c;
+    }
+
     img {
         width: 100%;
     }

@@ -20,7 +20,7 @@ const firstDeliveriesCarouselProps: React.FC<
 
     useEffect(() => {
         setTitle(componentKey, "Clever designs, delivered free");
-    }, [setTitle]);
+    }, []);
 
     const carouselRef = useRef<HTMLDivElement>(null);
 

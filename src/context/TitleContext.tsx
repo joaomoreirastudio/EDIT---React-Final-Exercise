@@ -10,7 +10,7 @@ const TitleContext = createContext<TitleContextProps | undefined>(undefined);
 export const TitleProvider: React.FC<{ children: React.ReactNode }> = ({
     children,
 }) => {
-    const [titles, setTitles] = useState<{ [key: string]: string }>({});
+    const [titles, setTitles] = useState({});
 
     const setTitle = (key: string, title: string) => {
         setTitles((prevTitles) => ({ ...prevTitles, [key]: title }));

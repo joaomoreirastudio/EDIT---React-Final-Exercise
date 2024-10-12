@@ -10,7 +10,7 @@ const ProductsPageHeader = () => {
 
     useEffect(() => {
         setTitle(componentKey, "All Seating");
-    }, []);
+    }, [componentKey, setTitle]);
 
     return (
         <>

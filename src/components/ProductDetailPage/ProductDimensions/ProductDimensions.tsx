@@ -27,12 +27,14 @@ const ProductDimensions = () => {
             <Title>Dimensions</Title>
             <Container>
                 <Table>
-                    {dimensions.map((item, index) => (
-                        <TableRow key={index}>
-                            <TableCell>{item.label}</TableCell>
-                            <TableCell>{item.value}</TableCell>
-                        </TableRow>
-                    ))}
+                    <tbody>
+                        {dimensions.map((item, index) => (
+                            <TableRow key={index}>
+                                <TableCell>{item.label}</TableCell>
+                                <TableCell>{item.value}</TableCell>
+                            </TableRow>
+                        ))}
+                    </tbody>
                 </Table>
                 <ImageWrapper>
                     <Image src={SofaDimensions} alt="sofa with dimensions" />

@@ -5,6 +5,8 @@ import FinalProduct from "../components/ProductDetailPage/finalProduct/finalProd
 import ProductDimensions from "../components/ProductDetailPage/ProductDimensions/ProductDimensions";
 import AboutThisProduct from "../components/ProductDetailPage/AboutProduct/AboutThisProduct";
 import ProductKeyFeatures from "../components/ProductDetailPage/ProductKeyFeatures/ProductKeyFeatures";
+import ProductAdvantages from "../components/ProductDetailPage/ProductAdvantages/ProductAdvantages";
+import RelatedProducts from "../components/ProductDetailPage/RelatedProducts/RelatedProducts";
 interface Product {
     productId: number;
     productImg: string;
@@ -29,6 +31,8 @@ function ProductPage() {
             <ProductDimensions />
             <AboutThisProduct />
             <ProductKeyFeatures />
+            <ProductAdvantages />
+            <RelatedProducts products={products} />
             <Footer />
         </>
     );
