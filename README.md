@@ -135,3 +135,7 @@ To expand the ESLint configuration for a production application, you can:
 -   `sass`: ^1.77.8
 -   `typescript`: ^5.2.2
 -   `vite`: ^5.3.4
+
+## Live Demo
+
+Check out the live demo of the project on Vercel: [Live Demo](https://edit-react-final-exercise.vercel.app/)
